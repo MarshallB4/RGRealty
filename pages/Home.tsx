@@ -49,7 +49,7 @@ export const Home: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-center relative z-10">
           <div className="lg:col-span-5 relative">
              <div className="relative z-10 aspect-[3/4]">
-                <img src="assets/images/headshot.jpg" alt={AGENT_NAME} className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl" />
+                <img src="../assets/images/headshot.jpg" alt={AGENT_NAME} className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl" />
              </div>
              {/* Decorative Element */}
              <div className="absolute -bottom-10 -left-10 w-full h-full border border-accent-600/30 -z-10 hidden lg:block"></div>
