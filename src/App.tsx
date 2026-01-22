@@ -1,14 +1,17 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import { Navbar } from './components/Navbar';
-import { Footer } from './components/Footer';
-import { Home } from './pages/Home';
-import { Listings } from './pages/Listings';
-import { Services } from './pages/Services';
-import { MarketStats } from './pages/MarketStats';
-import { Evaluation } from './pages/Evaluation';
-import { Newsletter } from './pages/Newsletter';
-import { Contact } from './pages/Contact';
+
+import { Navbar } from '../components/Navbar';
+import { Footer } from '../components/Footer';
+
+import { Home } from '../pages/Home';
+import { Listings } from '../pages/Listings';
+import { Services } from '../pages/Services';
+import { MarketStats } from '../pages/MarketStats';
+import { Evaluation } from '../pages/Evaluation';
+import { Newsletter } from '../pages/Newsletter';
+import { Contact } from '../pages/Contact';
+
 
 function App() {
   return (

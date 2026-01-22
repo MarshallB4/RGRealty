@@ -6,8 +6,6 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    // ✅ REQUIRED for GitHub Pages on a project repo:
-    // https://MarshallB4.github.io/RGRealty/
     base: '/RGRealty/',
 
     server: {
